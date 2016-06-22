@@ -26,6 +26,6 @@ public class Bigram {
 		for (int i = 0; i < 10; i++)
 			for (char ch = 'a'; ch <= 'z'; ch++)
 				s.add(new Bigram(ch, ch));
-		System.out.println(s.size());
+		System.out.println(s.size());//size=260,not 26 . Why?
 	}
 }
