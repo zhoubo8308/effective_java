@@ -6,6 +6,9 @@ package org.effectivejava.examples.chapter02.item01;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * 含有static factory method的类的名字是service的名字的复数
+ */
 public class Services {
 	private Services() {
 	} // Prevents instantiation (Item 4)
